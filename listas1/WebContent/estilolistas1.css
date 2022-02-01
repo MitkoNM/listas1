@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body{
+	background-color: #808080;
+	
+}
+
 ul.lista1 li {
   float:left;
   width: 10em;
@@ -15,3 +20,21 @@ ul.lista1 li {
 .clear1 {
 	clear: both ;
 }
+ ul.lista2 li {
+ 	 width: 10em;
+ 	 height: 10em;
+ 	 background-color: white;
+ 	 display: inline;
+ 	 margin-right: 1em;
+ 	 padding: 0.5em;
+ 	 text-align: center;
+ 	
+ }
+ 
+ ul.lista2 li:hover {
+  	border: white 0.1em solid;
+  	border-color: black;
+  	background-color: #d3d3d3;
+  }
+  
+ 
